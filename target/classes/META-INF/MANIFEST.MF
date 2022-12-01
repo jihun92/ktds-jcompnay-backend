@@ -1,9 +1,0 @@
-Manifest-Version: 1.0
-Built-By: kimjihun
-Build-Jdk: 15.0.2
-Implementation-Title: jcompany
-Implementation-Version: 1.0.0-SNAPSHOT
-Implementation-Vendor-Id: com.example
-Implementation-Vendor: Pivotal Software, Inc.
-Created-By: Maven Integration for Eclipse
-

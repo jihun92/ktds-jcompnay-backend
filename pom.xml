@@ -37,6 +37,26 @@
       <artifactId>spring-boot-starter-test</artifactId>
     </dependency>
 
+	<!-- MariaDB --> 
+	<dependency>
+		<groupId>org.mariadb.jdbc</groupId>
+		<artifactId>mariadb-java-client</artifactId>
+		<version>1.1.9</version>
+	</dependency>
+		 
+	<dependency>
+		<groupId>org.mybatis</groupId>
+		<artifactId>mybatis</artifactId>
+		<version>3.3.0</version>
+	</dependency>
+		 
+	<dependency>
+		<groupId>org.mybatis</groupId>
+		<artifactId>mybatis-spring</artifactId>
+		<version>1.2.3</version>
+	</dependency>
+
+
   </dependencies>
 
   <!-- 21.09.08 update jihun -->
