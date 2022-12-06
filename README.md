@@ -64,7 +64,7 @@ OS name: "mac os x", version: "10.16", arch: "x86_64", family: "mac"
   spring.datasource.url=jdbc:log4jdbc:mariadb://{ip}:{port}/{database명}?serverTimezone=UTC&characterEncoding=UTF-8&allowMultiQueries=true # 
   spring.datasource.driver-class-name=net.sf.log4jdbc.sql.jdbcapi.DriverSpy
   spring.datasource.username={계장명}
-  spring.datasource.password={패스}
+  spring.datasource.password={패스워드}
  ```
 
 ## 테스트용 필수 데이터베이스 및 테이블 생성
