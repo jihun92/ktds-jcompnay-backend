@@ -1,9 +1,17 @@
 package com.jcompany;
 
+import java.io.Serializable;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
 @Entity
 @Table(name = "user")
-@Getter
-@Setter
+//@Getter
+//@Setter
 public class UserEntity implements Serializable {
 	
 	private static final long serialVersionUID = 1L;

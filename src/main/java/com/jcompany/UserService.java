@@ -1,14 +1,19 @@
 package com.jcompany;
 
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.stereotype.Service;
+
 @Service
-public class BoardService {
+public class UserService {
 	
 	@Autowired
-	private BoardRepository boardRepository;
+	private UserRepository userRepository;
 	
-	public BoardEntity getBoard(Long boardId) {
-		return boardRepository.findById(boardId).orElseThrow(() -> 
-        		new RestException(HttpStatus.NOT_FOUND, "Not found board"));
+	public List<UserEntity> getUser() {
+		return userRepository.findAll();
 	}
 
 }
