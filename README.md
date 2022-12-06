@@ -66,3 +66,12 @@ OS name: "mac os x", version: "10.16", arch: "x86_64", family: "mac"
   spring.datasource.username={계장명}
   spring.datasource.password={패스}
  ```
+
+## 테스트용 필수 데이터베이스 및 테이블 생성
+ ```shell
+ $ mysql -u root -p # 환경에 맞는 계정으로 로그인
+ $ CREATE DATABASE jcompany;
+ $ use jcompany;
+ $ CREATE TABLE web_info(version VARCHAR(20));
+ $ INSERT INTO web_info (version) VALUES ('v1.1.1');
+ ```
