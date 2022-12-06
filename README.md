@@ -55,3 +55,14 @@ OS name: "mac os x", version: "10.16", arch: "x86_64", family: "mac"
 ```sh
 % java -jar target/jcompany-1.0.0-SNAPSHOT.jar
 ```
+
+
+## DB 정보 변경 방법
+ * 파일 오픈 : application.properties
+ ```
+  #mariaDB
+  spring.datasource.url=jdbc:log4jdbc:mariadb://{ip}:{port}/{database명}?serverTimezone=UTC&characterEncoding=UTF-8&allowMultiQueries=true # 
+  spring.datasource.driver-class-name=net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+  spring.datasource.username={계장명}
+  spring.datasource.password={패스}
+ ```
